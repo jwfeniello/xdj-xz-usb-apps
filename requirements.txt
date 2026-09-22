@@ -1,0 +1,4 @@
+cryptography>=42
+pycdlib>=1.14
+pyelftools>=0.31
+unicorn>=2.1

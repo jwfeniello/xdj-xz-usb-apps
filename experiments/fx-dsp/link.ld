@@ -1,0 +1,1 @@
+SECTIONS { . = 0; .text : { *(.text.hook) *(.text*) *(.rodata*) } /DISCARD/ : { *(.ARM.exidx*) *(.ARM.extab*) *(.comment*) *(.note*) } }
