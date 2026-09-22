@@ -1,0 +1,23 @@
+[
+  {
+    "asset": "pokemon-red-unlimited.zip",
+    "autoexec_sha256": "ef0c6b0b1725e4c81fdf6af04feda46fd8e5f6c97e21ee311642ca99ce2bfd1e",
+    "source_build": "gameboy_unlimited",
+    "status": "No sound. No persistent saves. Unlimited version is locally validated; the earlier timed build was hardware-tested.",
+    "zip_sha256": "daec36e382149dff41377cee2572ff21b38cee464f8e2f4ae18ab5fc75aadc73"
+  },
+  {
+    "asset": "sonic-silent.zip",
+    "autoexec_sha256": "c255c8d10e3f064be5e48aa973a5c000e02f59e1a31e8ae58a4ad1cd9932a51c",
+    "source_build": "sonic_usb",
+    "status": "Hardware-tested silent prototype. Unlimited session; no persistent saves.",
+    "zip_sha256": "bff426f94ae41dd5ba0a6e16c0efa52c3dd0b1065dfcd70bad1f435ef639df8d"
+  },
+  {
+    "asset": "sonic-audio-experimental.zip",
+    "autoexec_sha256": "00f09a9e81e1b8e3ae6ff46bb3d69db229b6d75f51759b09a821a05bcaf8dd9e",
+    "source_build": "sonic_audio",
+    "status": "Experimental stereo audio. Hardware captures show audio underruns despite improvements. 30 Hz rendering in the newer audio build; unlimited session.",
+    "zip_sha256": "48309329a146b04c1b58e21ae2d3c4139282913db3e62e782ae76b44285f1329"
+  }
+]

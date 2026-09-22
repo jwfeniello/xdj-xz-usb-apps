@@ -31,8 +31,9 @@ The rest of this repository documents how to use the hardware once code is runni
 | `captures` | Selected results from physical tests |
 
 The local experiments have also run Game Boy, Genesis and ScummVM applications.
-Those ports have not been migrated into this repository yet. Game files are not
-included. The complete effect-bank injector/UI is also still being prepared;
+Full prebuilt Sonic and Pok?mon packages, including their bundled game data,
+are available in the [private releases](docs/releases.md). Emulator source snapshots
+accompany those downloads; the ports are not yet integrated into this source tree. The complete effect-bank injector/UI is also still being prepared;
 `fx-dsp` is the processing core, not a ready-to-install effect application.
 
 ## Current limits
@@ -45,8 +46,9 @@ None of these experiments requires a firmware update.
 
 Long-running applications need to release the stock USB launch handler. See the
 launch notes before adapting a desktop program or running it during playback.
-Firmware images, extracted vendor libraries, packaging keys, ROMs, and commercial
-game data are intentionally absent. Build outputs are generated locally.
+Firmware images, extracted vendor libraries and packaging keys are absent.
+The source tree excludes ROMs and commercial game data; the private archival
+releases described above do contain the bundled games.
 
 ## About the notes
 

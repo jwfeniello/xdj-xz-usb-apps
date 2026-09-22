@@ -8,7 +8,7 @@ portable repository builds need their own hardware confirmation.
 | USB-packaged native applications | Multiple physical launches | Firmware 1.25 only |
 | Pong with presentation gating | Device log and user confirmation | Early timed demo, stopped playback |
 | Jog-wheel/button input | Physical control tests and working games | Not every control is mapped |
-| Game Boy and Genesis | User reports working games | Ports/data not included here |
+| Game Boy and Genesis | User reports working games | Prebuilt private releases; source snapshots attached |
 | ScummVM | User reports working Pajama Sam | Jog mouse, silent tested build; no touch integration |
 | Touch coordinates | Physical corner/drag capture | Single contact; release bounce observed |
 | Live overlay | Physical runs around 31 presentations/s | UI updates can be slower; occasional stalls |
@@ -24,10 +24,10 @@ supports up to three selected pitch classes in octaves 2-5. TIME sets nominal
 
 - Migrate the complete overlay, control reader and injector with portable builds.
 - Replace locally generated system-font atlases with reproducible distributable assets.
-- Prepare emulator port patches and upstream dependency/license records.
+- Integrate the emulator release-source snapshots into portable source builds.
 - Add a video showing USB insertion, application launch and reboot to stock.
 - Test the new hello example and portable builds on the actual deck.
 - Choose a license before considering a public release.
 
 These items do not change the visibility of this repository. No public release,
-binary release, Pages site or external announcement is part of its initial setup.
+Pages site or external announcement has been made. Private archival game prereleases were added at the owner's request.
