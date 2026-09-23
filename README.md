@@ -31,7 +31,7 @@ The rest of this repository documents how to use the hardware once code is runni
 | `captures` | Selected results from physical tests |
 
 The local experiments have also run Game Boy, Genesis and ScummVM applications.
-Full prebuilt Sonic and Pok?mon packages, including their bundled game data,
+Full prebuilt Sonic and Pokemon packages, including their bundled game data,
 are available in the [private releases](docs/releases.md). Emulator source snapshots
 accompany those downloads; the ports are not yet integrated into this source tree. The complete effect-bank injector/UI is also still being prepared;
 `fx-dsp` is the processing core, not a ready-to-install effect application.
@@ -50,11 +50,4 @@ Firmware images, extracted vendor libraries and packaging keys are absent.
 The source tree excludes ROMs and commercial game data; the private archival
 releases described above do contain the bundled games.
 
-## About the notes
-
-Hardware testing and interpretation were done through an iterative research
-session with AI assistance for code, tooling and analysis. Physical observations,
-emulator checks and unresolved assumptions are identified separately.
-
-This private repository is being assembled from the working research directory.
-A redistribution license for the original project code has not been selected yet.
+A lot of the documentation is my nonsense notes i've made, which ai has made digestible for a normal human.
